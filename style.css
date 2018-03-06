@@ -9,9 +9,6 @@ span {
 	opacity: 0.4;
 	letter-spacing: 0.07em;
 }
-section {
-	padding-top: 100px;
-}
 #footer {
 	margin-bottom: 0;
 	margin-top: 20px;
@@ -31,6 +28,9 @@ section {
 	}
 
 /*About*/
+section {
+	padding-top: 100px;
+}
 .title{
 	display: inline-block;
 	font-size: 38px;
@@ -107,7 +107,7 @@ section {
 }
 
 /*Mobile*/
-@media(max-width: 500px) {
+@media(max-width: 650px) {
 	section {
 		padding-top: 50px;
 	}
