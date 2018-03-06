@@ -47,7 +47,7 @@ section {
 }
 .paragraph {
 	margin: 0 auto;
-	font-size: 0.8em;
+	font-size: 20px;
 	opacity: 0.6;
 	text-align: center;
 	max-width: 500px;
@@ -61,7 +61,7 @@ section {
 }
 
 #description{
-	font-size: 12px;
+	font-size: 16px;
 	opacity: 0.8;
 	margin-top: 0;
 	margin-left: 0;
@@ -69,8 +69,8 @@ section {
 #face {
 	margin-top: 15px;
 	margin-bottom: 15px; 
-	height: 200px;
-	width: 200px;
+	height: 400px;
+	width: 400px;
 	border-radius: 5%;
 }
 #tech {
@@ -126,6 +126,10 @@ section {
 	.project-img{
 		height: 440px;
 		width: 350px;
+
+	}
+	.eight.wide.column.project{
+		padding-left: 10px;
 	}
 	.mobile-name.name{
 		margin-top: 60px;
