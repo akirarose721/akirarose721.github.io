@@ -107,7 +107,7 @@ section {
 }
 
 /*Mobile*/
-@media(max-width: 750px) {
+@media screen and (max-width: 750px) {
 	section {
 		padding-top: 50px;
 	}
@@ -128,7 +128,7 @@ section {
 		width: 350px;
 
 	}
-	.eight.wide.column.project{
+	#projects-container{
 		padding-left: 10px;
 	}
 	.mobile-name.name{
