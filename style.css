@@ -134,7 +134,7 @@ section {
 	}
 	.mobile-name.name{
 		margin-top: 60px;
-		margin-left: 115px;
+		margin-left: 75px;
 	}
 	#headerMain {
 		display: none;
@@ -156,6 +156,7 @@ section {
 	}
 	#name {
 		float: left;
+		margin-left: 10px;
 	}
 }
 
