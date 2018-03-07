@@ -116,7 +116,8 @@ section {
 		padding-top: 50px;
 	}
 	span {
-		padding-bottom: 0.5em;		
+		padding-bottom: 0.5em;
+		padding-left: 20px;		
 	}
 	.ui.menu .item {
 		float: right;
@@ -135,9 +136,6 @@ section {
 	.face {
 		height: 200px;
 		width: 200px;
-	}
-	footer-name{
-		padding-left: 7px;
 	}
 	#footer a {
 		padding-left: 10px;
