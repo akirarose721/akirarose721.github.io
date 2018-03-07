@@ -107,7 +107,7 @@ section {
 }
 
 /*Mobile*/
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 	section {
 		padding-top: 50px;
 	}
