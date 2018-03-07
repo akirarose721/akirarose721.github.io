@@ -69,8 +69,8 @@ section {
 #face {
 	margin-top: 15px;
 	margin-bottom: 15px; 
-	height: 400px;
-	width: 400px;
+	height: 200px;
+	width: 200px;
 	border-radius: 5%;
 }
 #tech {
@@ -107,7 +107,7 @@ section {
 }
 
 /*Mobile*/
-@media screen and (max-width: 1040px) {
+@media screen and (min-width: 600px) {
 	section {
 		padding-top: 50px;
 	}
@@ -116,6 +116,7 @@ section {
 	}
 	.ui.menu .item {
 		float: right;
+		padding-left: 0;
 	}
 	.ui.menu a.item  {
 		float: left;
@@ -124,7 +125,7 @@ section {
 		color: #383838;
 	}
 	.project-img{
-		height: 440px;
+		height: 350px;
 		width: 350px;
 
 	}
@@ -148,9 +149,6 @@ section {
 		margin-bottom: 0;
 		margin-top: 20px;
 		border-radius: 0;
-	}
-	#bottom_mobile.icon {
-		padding-left: -50px;
 	}
 	 #name {
 		float: left;
