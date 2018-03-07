@@ -53,8 +53,8 @@ section {
 	max-width: 500px;
 }
 .tech{
-	height: 150px;
-	width: 150px;
+	height: 216px;
+	width: 212px;
 }
 .four.wide.column {
 	text-align: center;
@@ -80,8 +80,8 @@ section {
 
 /*Projects*/
 .project-img{
-	height: 350px;
-	width: 450px;
+	height: 100%;
+	width: 100%;
 }
 .eight.wide.column.project{
 	padding-left: 70px;
@@ -124,11 +124,11 @@ section {
 	.ui.floating.dropdown a {
 		color: #383838;
 	}
-	.project-img{
+	/*.project-img{
 		height: 350px;
 		width: 350px;
 
-	}
+	}*/
 	#projects-container{
 		margin-left: 0;
 	}
