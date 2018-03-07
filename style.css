@@ -128,11 +128,6 @@ section {
 	.ui.floating.dropdown a {
 		color: #383838;
 	}
-	/*.project-img{
-		height: 350px;
-		width: 350px;
-
-	}*/
 	.mobile-name.name{
 		margin-top: 60px;
 		margin-left: 75px;
@@ -141,10 +136,13 @@ section {
 		height: 200px;
 		width: 200px;
 	}
+	#footer a {
+		padding-left: 10px;
+	}
 	#projects-container{
 		margin-left: 0;
 	}
-		#headerMain {
+	#headerMain {
 		display: none;
 	}
 	#dropdown{
