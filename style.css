@@ -59,7 +59,13 @@ section {
 .four.wide.column {
 	text-align: center;
 }
-
+.face {
+	margin: 15px auto;
+	height: 400px;
+	width: 400px;
+	border-radius: 5%;
+	text-align: center;
+}
 #description{
 	font-size: 16px;
 	opacity: 0.8;
@@ -67,10 +73,8 @@ section {
 	margin-left: 0;
 }
 #face {
-	margin-top: 15px;
-	margin-bottom: 15px; 
-	height: 400px;
-	width: 400px;
+	height: 100%;
+	width: 100%;
 	border-radius: 5%;
 }
 #tech {
@@ -129,14 +133,18 @@ section {
 		width: 350px;
 
 	}*/
-	#projects-container{
-		margin-left: 0;
-	}
 	.mobile-name.name{
 		margin-top: 60px;
 		margin-left: 75px;
 	}
-	#headerMain {
+	.face {
+		height: 200px;
+		width: 200px;
+	}
+	#projects-container{
+		margin-left: 0;
+	}
+		#headerMain {
 		display: none;
 	}
 	#dropdown{
@@ -151,8 +159,8 @@ section {
 		border-radius: 0;
 	}
 	#face {
-		width: 200px;
-		height: 200px;
+		width: 100%;
+		height: 100%;
 	}
 	#name {
 		float: left;
